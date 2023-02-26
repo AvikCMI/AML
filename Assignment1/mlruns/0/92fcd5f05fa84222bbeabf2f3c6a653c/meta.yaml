@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/92fcd5f05fa84222bbeabf2f3c6a653c/artifacts
+end_time: 1677404682785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92fcd5f05fa84222bbeabf2f3c6a653c
+run_name: gaudy-sow-85
+run_uuid: 92fcd5f05fa84222bbeabf2f3c6a653c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677404682454
+status: 4
+tags: []
+user_id: AVIK DAS

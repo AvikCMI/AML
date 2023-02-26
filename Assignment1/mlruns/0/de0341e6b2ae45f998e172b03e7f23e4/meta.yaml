@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/de0341e6b2ae45f998e172b03e7f23e4/artifacts
+end_time: 1677404384583
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de0341e6b2ae45f998e172b03e7f23e4
+run_name: wise-penguin-202
+run_uuid: de0341e6b2ae45f998e172b03e7f23e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677404351502
+status: 3
+tags: []
+user_id: AVIK DAS

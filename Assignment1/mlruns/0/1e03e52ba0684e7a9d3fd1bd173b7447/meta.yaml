@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/1e03e52ba0684e7a9d3fd1bd173b7447/artifacts
+end_time: 1677404170550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e03e52ba0684e7a9d3fd1bd173b7447
+run_name: bright-snipe-47
+run_uuid: 1e03e52ba0684e7a9d3fd1bd173b7447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677404169069
+status: 4
+tags: []
+user_id: AVIK DAS

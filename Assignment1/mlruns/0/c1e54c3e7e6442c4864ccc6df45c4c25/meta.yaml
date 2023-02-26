@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/c1e54c3e7e6442c4864ccc6df45c4c25/artifacts
+end_time: 1677404863598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1e54c3e7e6442c4864ccc6df45c4c25
+run_name: capricious-perch-423
+run_uuid: c1e54c3e7e6442c4864ccc6df45c4c25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677404851163
+status: 3
+tags: []
+user_id: AVIK DAS

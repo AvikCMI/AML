@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/0bfc148558e34a34bae63a1e09269f4f/artifacts
+end_time: 1677404797211
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bfc148558e34a34bae63a1e09269f4f
+run_name: rumbling-trout-170
+run_uuid: 0bfc148558e34a34bae63a1e09269f4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677404790230
+status: 3
+tags: []
+user_id: AVIK DAS

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/d7657297e08547f48539ebaf2ee51546/artifacts
+end_time: 1677405212891
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7657297e08547f48539ebaf2ee51546
+run_name: adventurous-gull-677
+run_uuid: d7657297e08547f48539ebaf2ee51546
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677405202823
+status: 3
+tags: []
+user_id: AVIK DAS

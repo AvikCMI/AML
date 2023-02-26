@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/78f3382c1d6242ebb076d295a04e26a1/artifacts
+end_time: 1677404814405
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 78f3382c1d6242ebb076d295a04e26a1
+run_name: thoughtful-koi-617
+run_uuid: 78f3382c1d6242ebb076d295a04e26a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677404805158
+status: 3
+tags: []
+user_id: AVIK DAS
