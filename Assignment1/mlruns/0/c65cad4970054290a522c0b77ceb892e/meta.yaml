@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/c65cad4970054290a522c0b77ceb892e/artifacts
+end_time: 1678430896171
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c65cad4970054290a522c0b77ceb892e
+run_name: gregarious-cow-280
+run_uuid: c65cad4970054290a522c0b77ceb892e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678430884961
+status: 3
+tags: []
+user_id: AVIK DAS

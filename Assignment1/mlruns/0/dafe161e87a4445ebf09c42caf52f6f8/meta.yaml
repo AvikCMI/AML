@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/dafe161e87a4445ebf09c42caf52f6f8/artifacts
+end_time: 1678430926445
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dafe161e87a4445ebf09c42caf52f6f8
+run_name: delightful-deer-19
+run_uuid: dafe161e87a4445ebf09c42caf52f6f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678430920067
+status: 3
+tags: []
+user_id: AVIK DAS

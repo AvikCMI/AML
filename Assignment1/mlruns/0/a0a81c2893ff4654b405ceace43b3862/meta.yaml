@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/a0a81c2893ff4654b405ceace43b3862/artifacts
+end_time: 1678430902269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0a81c2893ff4654b405ceace43b3862
+run_name: crawling-vole-931
+run_uuid: a0a81c2893ff4654b405ceace43b3862
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678430898499
+status: 3
+tags: []
+user_id: AVIK DAS
