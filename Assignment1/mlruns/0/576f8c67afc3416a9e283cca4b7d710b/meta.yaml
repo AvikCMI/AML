@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/576f8c67afc3416a9e283cca4b7d710b/artifacts
+end_time: 1678431965992
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 576f8c67afc3416a9e283cca4b7d710b
+run_name: whimsical-loon-12
+run_uuid: 576f8c67afc3416a9e283cca4b7d710b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678431944085
+status: 3
+tags: []
+user_id: AVIK DAS

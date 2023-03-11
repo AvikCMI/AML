@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/056a24d95c334a3f95157ad9203c25c9/artifacts
+end_time: 1678432000095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 056a24d95c334a3f95157ad9203c25c9
+run_name: legendary-mare-87
+run_uuid: 056a24d95c334a3f95157ad9203c25c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678431993314
+status: 3
+tags: []
+user_id: AVIK DAS
