@@ -9,4 +9,22 @@ Original file is located at
 
 import joblib
 import sklearn
-from train import messtovec, data_prep
+import pandas as pd
+from train import data_prep
+filename = "best_model.joblib"
+best_model = joblib.load(filename)
+
+def score(text:str, model:sklearn.estimator, threshold:float):
+    k = {'message': [text]}
+    testing_data = pd.DataFrame(k)
+    te_d,te_i,te_c = data_prep(testing_data)
+    testing_X = pd.DataFrame(data = te_d, 
+                    index = te_i, 
+                    columns = te_c)
+    propensity = model.predict_proba(testing_X)[1]
+    if propensity >= threshold:
+        prediction = 1
+    else:
+        prediction = 0
+    return prediction, propensity
+print(score("Rishika is someone who knows how to play the long ball, do you?", best_model, threshold = 0.7))
