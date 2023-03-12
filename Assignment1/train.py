@@ -65,11 +65,7 @@ import logging
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
-<<<<<<< HEAD
-# !pip install mlflow
-=======
-!pip install mlflow
->>>>>>> 10ce39ad9e55387446daead1e843f48292c358ab
+%pip install mlflow
 
 from sklearn.metrics._plot.precision_recall_curve import precision_recall_curve
 from sklearn.metrics import auc
@@ -396,7 +392,7 @@ with mlflow.start_run():
 from sklearn.svm import SVC 
 from sklearn.metrics import mean_absolute_error
 def score_dataset(X_train, X_valid, y_train, y_valid, k):
-    model = SVC(kernel=k) 
+    model = SVC(kernel=k, probability=True) 
     model.fit(X_train, np.ravel(y_train))
     preds = model.predict(X_valid)
     return mean_absolute_error(y_valid, preds)
@@ -411,7 +407,7 @@ for i in Kernels:
         kernel = i
 
 # instantiate the model
-clf = SVC(kernel=kernel) 
+clf = SVC(kernel=kernel, probability=True) 
 # fit the model
 clf.fit(train_X, np.ravel(train_Y))
 
