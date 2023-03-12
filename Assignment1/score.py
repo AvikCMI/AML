@@ -27,4 +27,14 @@ def score(text:str, model, threshold:float):
     else:
         prediction = 0
     return prediction, propensity
-print(score("Rishika is someone who knows how to play the long ball, do you?", best_model, threshold = 0.7))
+
+l = ["Get your pair of eyewear delivered in 2 days", "Wait for 5 mins, I'm coming!","You have own a lottery of rupees one lakh"]
+threshold_list = [0,0.1,0.3,0.5,0.7,0.9,1]
+
+f = open("output.txt", "w")
+for i in threshold_list:
+    for j in l:
+        s = score(j, best_model, i)
+        L = ["sentence: ",j,"\n\n","threshold: ",i,'\n\n',"(prediction & propensity): ",s]
+        f.writelines(L) 
+f.close()
