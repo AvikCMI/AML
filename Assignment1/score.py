@@ -21,7 +21,7 @@ def score(text:str, model, threshold:float):
     testing_X = pd.DataFrame(data = te_d, 
                     index = te_i, 
                     columns = te_c)
-    propensity = model.predict_proba(testing_X)[1]
+    propensity = ((model.predict_proba(testing_X)).tolist())[0][1]
     if propensity >= threshold:
         prediction = 1
     else:
