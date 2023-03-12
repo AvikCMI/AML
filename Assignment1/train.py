@@ -65,7 +65,11 @@ import logging
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
+<<<<<<< HEAD
 # !pip install mlflow
+=======
+!pip install mlflow
+>>>>>>> 10ce39ad9e55387446daead1e843f48292c358ab
 
 from sklearn.metrics._plot.precision_recall_curve import precision_recall_curve
 from sklearn.metrics import auc
