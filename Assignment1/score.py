@@ -14,7 +14,7 @@ from train import data_prep
 filename = "best_model.joblib"
 best_model = joblib.load(filename)
 
-def score(text:str, model:sklearn.estimator, threshold:float):
+def score(text:str, model, threshold:float):
     k = {'message': [text]}
     testing_data = pd.DataFrame(k)
     te_d,te_i,te_c = data_prep(testing_data)

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/AVIK%20DAS/AML/Assignment1/mlruns/0/6a125b0a22b94ea2a881144800c4a394/artifacts
+end_time: 1678616072583
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a125b0a22b94ea2a881144800c4a394
+run_name: big-conch-993
+run_uuid: 6a125b0a22b94ea2a881144800c4a394
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1678616056053
+status: 3
+tags: []
+user_id: AVIK DAS
