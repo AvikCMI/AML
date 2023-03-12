@@ -35,6 +35,6 @@ f = open("output.txt", "w")
 for i in threshold_list:
     for j in l:
         s = score(j, best_model, i)
-        L = ["sentence: ",j,"\n\n","threshold: ",i,'\n\n',"(prediction & propensity): ",s]
+        L = ["sentence: ",j,"\n\n","threshold: ",str(i),'\n\n',"(prediction & propensity): ",str(s)]
         f.writelines(L) 
 f.close()
