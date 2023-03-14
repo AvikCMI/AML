@@ -20,7 +20,7 @@ threshold = 0.6
 
 @app.route('/') 
 def home():
-    return render_template('spam.html')
+    return render_template('spam_page.html')
 
 
 @app.route('/spam', methods=['POST'])
@@ -29,7 +29,7 @@ def spam():
     pred,prop = score.score(txt, best_model, threshold)
     label = "Spam" if pred == 1 else "Not spam"
     ans = f"""The sentence "{txt}" is {label} with propensity {prop}."""
-    return render_template('res.html', ans = ans)
+    return render_template('result_page.html', ans = ans)
 
 
 if __name__ == '__main__': 

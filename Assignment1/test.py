@@ -18,13 +18,13 @@ import unittest
 
 filename = "best_model.joblib"
 best_model = joblib.load(filename)
-sent1 = "Hi, the SEXYCHAT girls are waiting for you to text them. Text now for a great night chatting. send STOP to stop this service"
-sent2 = "Hi, I'm Avik Das. I am fond of reading science fiction."
-sent3 = "call this number, you will get reward. Don't miss the opportunity."
+# sent1 = "Hi, the SEXYCHAT girls are waiting for you to text them. Text now for a great night chatting. send STOP to stop this service"
+# sent2 = "Hi, I'm Avik Das. I am fond of reading science fiction."
+# sent3 = "call this number, you will get reward. Don't miss the opportunity."
 
-threshold_list = [0,0.1,0.3,0.5,0.7,0.9,1]
+# threshold_list = [0,0.1,0.3,0.5,0.7,0.9,1]
 
-passed_test = 0
+# passed_test = 0
 
 def smoke_test(txt, threshold):
   pred,prop = (None,None)
