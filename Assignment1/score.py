@@ -28,13 +28,3 @@ def score(text:str, model, threshold:float):
         prediction = 0
     return prediction, propensity
 
-l = ["Hi, the SEXYCHAT girls are waiting for you to text them. Text now for a great night chatting. send STOP to stop this service", "Wait for 5 mins, I'm coming!","call this number, you will get reward. Don't miss the opportunity."]
-threshold_list = [0,0.1,0.3,0.5,0.7,0.9,1]
-
-f = open("output.txt", "w")
-for i in threshold_list:
-    for j in l:
-        s = score(j, best_model, i)
-        L = ["sentence: ",j,"\t","threshold: ",str(i),'\t',"(prediction & propensity): ",str(s),"\n"]
-        f.writelines(L) 
-f.close()
